@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9540ad0203b61426c908bac7f1174372, type: 3}
+  m_Name: Special item - Key
+  m_EditorClassIdentifier: Assembly-CSharp::SpecialItemData
+  itemId: SpecialItem
+  displayName: Key
+  itemType: 1
+  icon: {fileID: 8107852699194483037, guid: 70c3f9b4406a64f9eba263be6685d767, type: 3}
+  description: 
+  stackable: 1
+  maxStackSize: 99
+  ownedByDefault: 0
+  defaultAmount: 1

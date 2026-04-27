@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: a3fc0376a7fb943cfab5e7bf9f717c25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1769686169891190245
+    second: LayersBackground - Group 2_0
+  - first:
+      213: -694043101906499252
+    second: LayersBackground - Group 2_1
+  - first:
+      213: -5657936522042265081
+    second: LayersBackground - Group 2_2
+  - first:
+      213: 3083497618582078095
+    second: LayersBackground - Group 2_3
+  - first:
+      213: 7372492579651732020
+    second: LayersBackground - Group 2_4
+  - first:
+      213: 1084588705469888940
+    second: LayersBackground - Group 2_5
+  - first:
+      213: -1700378345271008192
+    second: LayersBackground - Group 2_6
+  - first:
+      213: -1169464732087396242
+    second: LayersBackground - Group 2_7
+  - first:
+      213: -5515507370092311735
+    second: LayersBackground - Group 2_8
+  - first:
+      213: 2531451451360236565
+    second: LayersBackground - Group 2_9
+  - first:
+      213: 6706500309446313151
+    second: LayersBackground - Group 2_10
+  - first:
+      213: -870620702390415747
+    second: LayersBackground - Group 2_11
+  - first:
+      213: 3604587248546738488
+    second: LayersBackground - Group 2_12
+  - first:
+      213: -8493288196124230282
+    second: LayersBackground - Group 2_13
+  - first:
+      213: 7921651576202657704
+    second: LayersBackground - Group 2_14
+  - first:
+      213: -2046227663240481525
+    second: LayersBackground - Group 2_15
+  - first:
+      213: -5606676877904644021
+    second: LayersBackground - Group 2_16
+  - first:
+      213: -3995658812827025300
+    second: LayersBackground - Group 2_17
+  - first:
+      213: 7930538649376489818
+    second: LayersBackground - Group 2_18
+  - first:
+      213: 2886581341672846734
+    second: LayersBackground - Group 2_19
+  - first:
+      213: -2714009046451836389
+    second: LayersBackground - Group 2_20
+  - first:
+      213: 1346326894560132782
+    second: LayersBackground - Group 2_21
+  - first:
+      213: 5021032744697100895
+    second: LayersBackground - Group 2_22
+  - first:
+      213: 6030487394301052765
+    second: LayersBackground - Group 2_23
+  - first:
+      213: -6520973352775145385
+    second: LayersBackground - Group 2_24
+  - first:
+      213: -6399722328833421581
+    second: LayersBackground - Group 2_25
+  - first:
+      213: -3899003595358252684
+    second: LayersBackground - Group 2_26
+  - first:
+      213: -2074761424455565961
+    second: LayersBackground - Group 2_27
+  - first:
+      213: 2543351772567463551
+    second: LayersBackground - Group 2_28
+  - first:
+      213: 8507752281669368835
+    second: LayersBackground - Group 2_29
+  - first:
+      213: 1520370675795844977
+    second: LayersBackground - Group 2_30
+  - first:
+      213: 8436554113326810351
+    second: LayersBackground - Group 2_31
+  - first:
+      213: -6289650666168092960
+    second: LayersBackground - Group 2_32
+  - first:
+      213: -8746408347834202131
+    second: LayersBackground - Group 2_33
+  - first:
+      213: 3353697417727784679
+    second: LayersBackground - Group 2_34
+  - first:
+      213: 2760111195780577098
+    second: LayersBackground - Group 2_35
+  - first:
+      213: 5776660830561172682
+    second: LayersBackground - Group 2_36
+  - first:
+      213: 3914400041807973830
+    second: LayersBackground - Group 2_37
+  - first:
+      213: -6751847689790247868
+    second: LayersBackground - Group 2_38
+  - first:
+      213: 5250458125162591777
+    second: LayersBackground - Group 2_39
+  - first:
+      213: -6783698851644214232
+    second: LayersBackground - Group 2_40
+  - first:
+      213: -8113650837258113127
+    second: LayersBackground - Group 2_41
+  - first:
+      213: 4948589073297508178
+    second: LayersBackground - Group 2_42
+  - first:
+      213: 7408017584719532790
+    second: LayersBackground - Group 2_43
+  - first:
+      213: 3609644341505782489
+    second: LayersBackground - Group 2_44
+  - first:
+      213: -4380857240563915992
+    second: LayersBackground - Group 2_45
+  - first:
+      213: 1974208264896946784
+    second: LayersBackground - Group 2_46
+  - first:
+      213: -5177189118994633120
+    second: LayersBackground - Group 2_47
+  - first:
+      213: 5749873593934213181
+    second: LayersBackground - Group 2_48
+  - first:
+      213: 6355444144188841737
+    second: LayersBackground - Group 2_49
+  - first:
+      213: -4599932502698273210
+    second: LayersBackground - Group 2_50
+  - first:
+      213: -6694655795586829086
+    second: LayersBackground - Group 2_51
+  - first:
+      213: 452768855888597997
+    second: LayersBackground - Group 2_52
+  - first:
+      213: -1518397799021812737
+    second: LayersBackground - Group 2_53
+  - first:
+      213: 2313345428825772042
+    second: LayersBackground - Group 2_54
+  - first:
+      213: 2869320170450381654
+    second: LayersBackground - Group 2_55
+  - first:
+      213: 870139014601582966
+    second: LayersBackground - Group 2_56
+  - first:
+      213: -6877010423314010275
+    second: LayersBackground - Group 2_57
+  - first:
+      213: 2127879181994202166
+    second: LayersBackground - Group 2_58
+  - first:
+      213: -1431142422092580325
+    second: LayersBackground - Group 2_59
+  - first:
+      213: -1469530048413054238
+    second: LayersBackground - Group 2_60
+  - first:
+      213: -9193760965124784374
+    second: LayersBackground - Group 2_61
+  - first:
+      213: -1182381639076716868
+    second: LayersBackground - Group 2_62
+  - first:
+      213: 2968922990892385200
+    second: LayersBackground - Group 2_63
+  - first:
+      213: 1606390076861744609
+    second: LayersBackground - Group 2_64
+  - first:
+      213: -4784567074963394272
+    second: LayersBackground - Group 2_65
+  - first:
+      213: 5564598461630272096
+    second: LayersBackground - Group 2_66
+  - first:
+      213: 4307800092432778801
+    second: LayersBackground - Group 2_67
+  - first:
+      213: -9086297033841664278
+    second: LayersBackground - Group 2_68
+  - first:
+      213: 2659497653070981648
+    second: LayersBackground - Group 2_69
+  - first:
+      213: 7910593349335014887
+    second: LayersBackground - Group 2_70
+  - first:
+      213: 7252410475381715760
+    second: LayersBackground - Group 2_71
+  - first:
+      213: -7718112820889879441
+    second: LayersBackground - Group 2_72
+  - first:
+      213: 1906852171797426834
+    second: LayersBackground - Group 2_73
+  - first:
+      213: 2253337449641805244
+    second: LayersBackground - Group 2_74
+  - first:
+      213: -1818980825595319949
+    second: LayersBackground - Group 2_75
+  - first:
+      213: 483042858791603518
+    second: LayersBackground - Group 2_76
+  - first:
+      213: -2948806987415114746
+    second: LayersBackground - Group 2_77
+  - first:
+      213: 1688888371500325097
+    second: LayersBackground - Group 2_78
+  - first:
+      213: 5775294303245385888
+    second: LayersBackground - Group 2_79
+  - first:
+      213: -2212308721046273426
+    second: LayersBackground - Group 2_80
+  - first:
+      213: -1244673066132623407
+    second: LayersBackground - Group 2_81
+  - first:
+      213: 4970082735022143175
+    second: LayersBackground - Group 2_82
+  - first:
+      213: -3182065848453386207
+    second: LayersBackground - Group 2_83
+  - first:
+      213: 9089224174487064990
+    second: LayersBackground - Group 2_84
+  - first:
+      213: 3257973316083658214
+    second: LayersBackground - Group 2_85
+  - first:
+      213: -867923355368141199
+    second: LayersBackground - Group 2_86
+  - first:
+      213: 3832221651852339551
+    second: LayersBackground - Group 2_87
+  - first:
+      213: -8800365183710921833
+    second: LayersBackground - Group 2_88
+  - first:
+      213: 1408755530947934114
+    second: LayersBackground - Group 2_89
+  - first:
+      213: 9206966343981557030
+    second: LayersBackground - Group 2_90
+  - first:
+      213: 4168226450291673674
+    second: LayersBackground - Group 2_91
+  - first:
+      213: -2590947887117503075
+    second: LayersBackground - Group 2_92
+  - first:
+      213: 7729250031414607602
+    second: LayersBackground - Group 2_93
+  - first:
+      213: -8639181705207860605
+    second: LayersBackground - Group 2_94
+  - first:
+      213: -5708330793630450353
+    second: LayersBackground - Group 2_95
+  - first:
+      213: 9009774554265302600
+    second: LayersBackground - Group 2_96
+  - first:
+      213: -6795975788297788125
+    second: LayersBackground - Group 2_97
+  - first:
+      213: 5814112688768828179
+    second: LayersBackground - Group 2_98
+  - first:
+      213: 5092907642526327424
+    second: LayersBackground - Group 2_99
+  - first:
+      213: 2236491299405037016
+    second: LayersBackground - Group 2_100
+  - first:
+      213: -4909612412173238957
+    second: LayersBackground - Group 2_101
+  - first:
+      213: 1190571157241480836
+    second: LayersBackground - Group 2_102
+  - first:
+      213: -5428762722337099332
+    second: LayersBackground - Group 2_103
+  - first:
+      213: -7576758542154724961
+    second: LayersBackground - Group 2_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5394002303f8810800000000000000
+      internalID: 1769686169891190245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 316
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c498d0cd9734e56f0800000000000000
+      internalID: -694043101906499252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_2
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 309
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70236f1d5b8fa71b0800000000000000
+      internalID: -5657936522042265081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_3
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 308
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82095d3fb8caca20800000000000000
+      internalID: 3083497618582078095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_4
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 310
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4324857a0fa505660800000000000000
+      internalID: 7372492579651732020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_5
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 309
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9fee46eab3d0f00800000000000000
+      internalID: 1084588705469888940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 297
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ea5a67ea0768e0800000000000000
+      internalID: -1700378345271008192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 294
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e685592b50a35cfe0800000000000000
+      internalID: -1169464732087396242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 295
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b4991f44bf473b0800000000000000
+      internalID: -5515507370092311735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 289
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514597ccea5812320800000000000000
+      internalID: 2531451451360236565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 289
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb44896bf76421d50800000000000000
+      internalID: 6706500309446313151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 286
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e0beb751feae3f0800000000000000
+      internalID: -870620702390415747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 290
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831f78f2101160230800000000000000
+      internalID: 3604587248546738488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_13
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 287
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d3ffe8267c12a80800000000000000
+      internalID: -8493288196124230282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 288
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aff8f9432c5fed60800000000000000
+      internalID: 7921651576202657704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 282
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0539fa18c65a93e0800000000000000
+      internalID: -2046227663240481525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_16
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 287
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48f812c5151132b0800000000000000
+      internalID: -5606676877904644021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_17
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 281
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6049c9ca719c88c0800000000000000
+      internalID: -3995658812827025300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_18
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 282
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51879142eeee0e60800000000000000
+      internalID: 7930538649376489818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 267
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e853eadbf623f0820800000000000000
+      internalID: 2886581341672846734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_20
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 274
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1aaa05d627e55ad0800000000000000
+      internalID: -2714009046451836389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_21
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 275
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaebfcd6d2d1fa210800000000000000
+      internalID: 1346326894560132782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_22
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 252
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a7641cdaa4ea540800000000000000
+      internalID: 5021032744697100895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 255
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5709cf855890b350800000000000000
+      internalID: 6030487394301052765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_24
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 259
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758ac060949d085a0800000000000000
+      internalID: -6520973352775145385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_25
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 245
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe8fb8f27e9f27a0800000000000000
+      internalID: -6399722328833421581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_26
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 260
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47153b843e4f3e9c0800000000000000
+      internalID: -3899003595358252684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_27
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 244
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d74ad1a77f433e0800000000000000
+      internalID: -2074761424455565961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_28
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 247
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f766ebe36fccb4320800000000000000
+      internalID: 2543351772567463551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_29
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 248
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cfbe9cf9b911670800000000000000
+      internalID: 8507752281669368835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_30
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 236
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f5bb90311791510800000000000000
+      internalID: 1520370675795844977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 230
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4843d6449a41570800000000000000
+      internalID: 8436554113326810351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_32
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 228
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e670c90b0ca6b8a0800000000000000
+      internalID: -6289650666168092960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_33
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 229
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7c4d6b2f38e9680800000000000000
+      internalID: -8746408347834202131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_34
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e63fc3680aba8e20800000000000000
+      internalID: 3353697417727784679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 221
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4774154282ed4620800000000000000
+      internalID: 2760111195780577098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_36
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 213
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accf2895b62da2050800000000000000
+      internalID: 5776660830561172682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_37
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 222
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd0db0491eb25630800000000000000
+      internalID: 3914400041807973830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_38
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 214
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ca2888c4e9c42a0800000000000000
+      internalID: -6751847689790247868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_39
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 223
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1263162c8df5dd840800000000000000
+      internalID: 5250458125162591777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_40
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 207
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824758406d57bd1a0800000000000000
+      internalID: -6783698851644214232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_41
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fedad2d85866f80800000000000000
+      internalID: -8113650837258113127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 194
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257074d1b8beca440800000000000000
+      internalID: 4948589073297508178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_43
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 186
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f21e037eb09ec660800000000000000
+      internalID: 7408017584719532790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 187
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d273f46768081230800000000000000
+      internalID: 3609644341505782489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_45
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8236d7cec811433c0800000000000000
+      internalID: -4380857240563915992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_46
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062a2d505fbc56b10800000000000000
+      internalID: 1974208264896946784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_47
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 169
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eae4b1dede628b0800000000000000
+      internalID: -5177189118994633120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_48
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30f8ddc197abcf40800000000000000
+      internalID: 5749873593934213181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_49
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 173
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f563cc6c2133850800000000000000
+      internalID: 6355444144188841737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_50
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 174
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64655e1a2c1c920c0800000000000000
+      internalID: -4599932502698273210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_51
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 169
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e47982160ec713a0800000000000000
+      internalID: -6694655795586829086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_52
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3999420ee884600800000000000000
+      internalID: 452768855888597997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_53
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 172
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3e1912f319deae0800000000000000
+      internalID: -1518397799021812737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_54
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a001fef2967aa1020800000000000000
+      internalID: 2313345428825772042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_55
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 161
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bee822e7fd1d720800000000000000
+      internalID: 2869320170450381654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_56
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 173
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6792986d2da531c00800000000000000
+      internalID: 870139014601582966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_57
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 172
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fa5b9b473ff80a0800000000000000
+      internalID: -6877010423314010275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_58
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 162
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63496bf87deb78d10800000000000000
+      internalID: 2127879181994202166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_59
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1afd24bc8f832ce0800000000000000
+      internalID: -1431142422092580325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_60
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 154
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eac395f43e2b9be0800000000000000
+      internalID: -1469530048413054238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_61
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 162
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f72e3ec13396080800000000000000
+      internalID: -9193760965124784374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_62
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 155
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe53ede926579fe0800000000000000
+      internalID: -1182381639076716868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_63
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 130
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b381adeabbb33920800000000000000
+      internalID: 2968922990892385200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_64
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 130
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58e0e834b0b4610800000000000000
+      internalID: 1606390076861744609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_65
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 126
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021f6c4589dc99db0800000000000000
+      internalID: -4784567074963394272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_66
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062582f71dc693d40800000000000000
+      internalID: 5564598461630272096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_67
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 122
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136c9d04c5168cb30800000000000000
+      internalID: 4307800092432778801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_68
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 123
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee9e2e2dfcf6e180800000000000000
+      internalID: -9086297033841664278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_69
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 123
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ae74c560f68e420800000000000000
+      internalID: 2659497653070981648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_70
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 119
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed5ea53db218cd60800000000000000
+      internalID: 7910593349335014887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_71
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033f27607ecb5a460800000000000000
+      internalID: 7252410475381715760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_72
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c787e1841c3e490800000000000000
+      internalID: -7718112820889879441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_73
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 118
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292fa2382ff767a10800000000000000
+      internalID: 1906852171797426834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_74
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb50cf4c876754f10800000000000000
+      internalID: 2253337449641805244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_75
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379e425939ea1c6e0800000000000000
+      internalID: -1818980825595319949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_76
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d0099bbec14b600800000000000000
+      internalID: 483042858791603518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_77
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60caeeb1babb317d0800000000000000
+      internalID: -2948806987415114746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_78
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 97
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e890989603207710800000000000000
+      internalID: 1688888371500325097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_79
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 89
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0474ae197f52050800000000000000
+      internalID: 5775294303245385888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_80
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 90
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62c98480fc4c41e0800000000000000
+      internalID: -2212308721046273426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df2bafd0780abee0800000000000000
+      internalID: -1244673066132623407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_82
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6fb453ae749f440800000000000000
+      internalID: 4970082735022143175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_83
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 69
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b80b58f707d3d0800000000000000
+      internalID: -3182065848453386207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_84
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 62
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91d13cda39632e70800000000000000
+      internalID: 9089224174487064990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_85
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 63
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed2ed03875a63d20800000000000000
+      internalID: 3257973316083658214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_86
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e44078e4484f3f0800000000000000
+      internalID: -867923355368141199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_87
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f592833d949ce2530800000000000000
+      internalID: 3832221651852339551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_88
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 59
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bf133ed72ded580800000000000000
+      internalID: -8800365183710921833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_89
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7b48501b7ec8310800000000000000
+      internalID: 1408755530947934114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_90
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 53
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6256ff7fb17b5cf70800000000000000
+      internalID: 9206966343981557030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_91
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 60
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ac5015fd388d930800000000000000
+      internalID: 4168226450291673674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_92
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95ffc4cf9a1b0cd0800000000000000
+      internalID: -2590947887117503075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_93
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fef4a6c3ffc34b60800000000000000
+      internalID: 7729250031414607602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_94
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 49
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382380fe2067b1880800000000000000
+      internalID: -8639181705207860605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_95
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 41
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dbb31236fe7c0b0800000000000000
+      internalID: -5708330793630450353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_96
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 42
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8463655a836290d70800000000000000
+      internalID: 9009774554265302600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_97
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 37
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325ea54f608dfa1a0800000000000000
+      internalID: -6795975788297788125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_98
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313482a9fa0efa050800000000000000
+      internalID: 5814112688768828179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_99
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08267aa7484ada640800000000000000
+      internalID: 5092907642526327424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_100
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 14
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddf944ccfc990f10800000000000000
+      internalID: 2236491299405037016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_101
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35db09bf58d8ddbb0800000000000000
+      internalID: -4909612412173238957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_102
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486443bd822c58010800000000000000
+      internalID: 1190571157241480836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_103
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1f63d111929a4b0800000000000000
+      internalID: -5428762722337099332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LayersBackground - Group 2_104
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9906f1df32f9d690800000000000000
+      internalID: -7576758542154724961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LayersBackground - Group 2_0: 1769686169891190245
+      LayersBackground - Group 2_1: -694043101906499252
+      LayersBackground - Group 2_10: 6706500309446313151
+      LayersBackground - Group 2_100: 2236491299405037016
+      LayersBackground - Group 2_101: -4909612412173238957
+      LayersBackground - Group 2_102: 1190571157241480836
+      LayersBackground - Group 2_103: -5428762722337099332
+      LayersBackground - Group 2_104: -7576758542154724961
+      LayersBackground - Group 2_11: -870620702390415747
+      LayersBackground - Group 2_12: 3604587248546738488
+      LayersBackground - Group 2_13: -8493288196124230282
+      LayersBackground - Group 2_14: 7921651576202657704
+      LayersBackground - Group 2_15: -2046227663240481525
+      LayersBackground - Group 2_16: -5606676877904644021
+      LayersBackground - Group 2_17: -3995658812827025300
+      LayersBackground - Group 2_18: 7930538649376489818
+      LayersBackground - Group 2_19: 2886581341672846734
+      LayersBackground - Group 2_2: -5657936522042265081
+      LayersBackground - Group 2_20: -2714009046451836389
+      LayersBackground - Group 2_21: 1346326894560132782
+      LayersBackground - Group 2_22: 5021032744697100895
+      LayersBackground - Group 2_23: 6030487394301052765
+      LayersBackground - Group 2_24: -6520973352775145385
+      LayersBackground - Group 2_25: -6399722328833421581
+      LayersBackground - Group 2_26: -3899003595358252684
+      LayersBackground - Group 2_27: -2074761424455565961
+      LayersBackground - Group 2_28: 2543351772567463551
+      LayersBackground - Group 2_29: 8507752281669368835
+      LayersBackground - Group 2_3: 3083497618582078095
+      LayersBackground - Group 2_30: 1520370675795844977
+      LayersBackground - Group 2_31: 8436554113326810351
+      LayersBackground - Group 2_32: -6289650666168092960
+      LayersBackground - Group 2_33: -8746408347834202131
+      LayersBackground - Group 2_34: 3353697417727784679
+      LayersBackground - Group 2_35: 2760111195780577098
+      LayersBackground - Group 2_36: 5776660830561172682
+      LayersBackground - Group 2_37: 3914400041807973830
+      LayersBackground - Group 2_38: -6751847689790247868
+      LayersBackground - Group 2_39: 5250458125162591777
+      LayersBackground - Group 2_4: 7372492579651732020
+      LayersBackground - Group 2_40: -6783698851644214232
+      LayersBackground - Group 2_41: -8113650837258113127
+      LayersBackground - Group 2_42: 4948589073297508178
+      LayersBackground - Group 2_43: 7408017584719532790
+      LayersBackground - Group 2_44: 3609644341505782489
+      LayersBackground - Group 2_45: -4380857240563915992
+      LayersBackground - Group 2_46: 1974208264896946784
+      LayersBackground - Group 2_47: -5177189118994633120
+      LayersBackground - Group 2_48: 5749873593934213181
+      LayersBackground - Group 2_49: 6355444144188841737
+      LayersBackground - Group 2_5: 1084588705469888940
+      LayersBackground - Group 2_50: -4599932502698273210
+      LayersBackground - Group 2_51: -6694655795586829086
+      LayersBackground - Group 2_52: 452768855888597997
+      LayersBackground - Group 2_53: -1518397799021812737
+      LayersBackground - Group 2_54: 2313345428825772042
+      LayersBackground - Group 2_55: 2869320170450381654
+      LayersBackground - Group 2_56: 870139014601582966
+      LayersBackground - Group 2_57: -6877010423314010275
+      LayersBackground - Group 2_58: 2127879181994202166
+      LayersBackground - Group 2_59: -1431142422092580325
+      LayersBackground - Group 2_6: -1700378345271008192
+      LayersBackground - Group 2_60: -1469530048413054238
+      LayersBackground - Group 2_61: -9193760965124784374
+      LayersBackground - Group 2_62: -1182381639076716868
+      LayersBackground - Group 2_63: 2968922990892385200
+      LayersBackground - Group 2_64: 1606390076861744609
+      LayersBackground - Group 2_65: -4784567074963394272
+      LayersBackground - Group 2_66: 5564598461630272096
+      LayersBackground - Group 2_67: 4307800092432778801
+      LayersBackground - Group 2_68: -9086297033841664278
+      LayersBackground - Group 2_69: 2659497653070981648
+      LayersBackground - Group 2_7: -1169464732087396242
+      LayersBackground - Group 2_70: 7910593349335014887
+      LayersBackground - Group 2_71: 7252410475381715760
+      LayersBackground - Group 2_72: -7718112820889879441
+      LayersBackground - Group 2_73: 1906852171797426834
+      LayersBackground - Group 2_74: 2253337449641805244
+      LayersBackground - Group 2_75: -1818980825595319949
+      LayersBackground - Group 2_76: 483042858791603518
+      LayersBackground - Group 2_77: -2948806987415114746
+      LayersBackground - Group 2_78: 1688888371500325097
+      LayersBackground - Group 2_79: 5775294303245385888
+      LayersBackground - Group 2_8: -5515507370092311735
+      LayersBackground - Group 2_80: -2212308721046273426
+      LayersBackground - Group 2_81: -1244673066132623407
+      LayersBackground - Group 2_82: 4970082735022143175
+      LayersBackground - Group 2_83: -3182065848453386207
+      LayersBackground - Group 2_84: 9089224174487064990
+      LayersBackground - Group 2_85: 3257973316083658214
+      LayersBackground - Group 2_86: -867923355368141199
+      LayersBackground - Group 2_87: 3832221651852339551
+      LayersBackground - Group 2_88: -8800365183710921833
+      LayersBackground - Group 2_89: 1408755530947934114
+      LayersBackground - Group 2_9: 2531451451360236565
+      LayersBackground - Group 2_90: 9206966343981557030
+      LayersBackground - Group 2_91: 4168226450291673674
+      LayersBackground - Group 2_92: -2590947887117503075
+      LayersBackground - Group 2_93: 7729250031414607602
+      LayersBackground - Group 2_94: -8639181705207860605
+      LayersBackground - Group 2_95: -5708330793630450353
+      LayersBackground - Group 2_96: 9009774554265302600
+      LayersBackground - Group 2_97: -6795975788297788125
+      LayersBackground - Group 2_98: 5814112688768828179
+      LayersBackground - Group 2_99: 5092907642526327424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

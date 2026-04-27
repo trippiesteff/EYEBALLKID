@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6bb1d8ef24341348154f41ac27fa8d, type: 3}
+  m_Name: Weapon data - Sword
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: sword_basic
+  displayName: Sword
+  weaponType: 1
+  icon: {fileID: -7907440099980241561, guid: 437d866517caa4f72a139c486b883c15, type: 3}
+  ownedByDefault: 1
+  equippedByDefault: 1
+  basePhysicalDamage: 10
+  baseElementalDamage: 0
+  element: 0
+  attackVelocity:
+  - {x: 4.5, y: 0}
+  - {x: 5.5, y: 0}
+  - {x: 6, y: 0}
+  attackVelocityDuration: 0.1
+  comboResetTime: 1
+  stopMovementAfterAttackLunge: 0

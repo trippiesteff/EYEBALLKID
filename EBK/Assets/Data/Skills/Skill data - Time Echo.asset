@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c4302c2f2d544baa517e65f2f52310, type: 3}
+  m_Name: Skill data - Time Echo
+  m_EditorClassIdentifier: Assembly-CSharp::Skill_DataSO
+  cost: 1
+  displayName: Time Echo
+  description: Create a clone of yourself to distract enemies.
+  icon: {fileID: 2045494465, guid: 64d569c8a69b24d2e94536de25a9b548, type: 3}
