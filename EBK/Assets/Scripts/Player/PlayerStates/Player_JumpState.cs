@@ -11,15 +11,16 @@ public class Player_JumpState : Player_AiredState
         base.Enter();
 
         player.SetVelocity(rb.linearVelocityX, player.jumpForce);
-    
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayPlayerJump(player.transform.position);
     }
 
     public override void Update()
     {
         base.Update();
 
-
-    // we need to be sure we are not in jump attack state when we transfer to fall state.
+        // we need to be sure we are not in jump attack state when we transfer to fall state.
         if (rb.linearVelocity.y < 0 && stateMachine.currentState != player.jumpAttackState)
             stateMachine.ChangeState(player.fallState);
     }

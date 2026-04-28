@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponManager : MonoBehaviour
+public class WeaponManager : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private List<WeaponData> allWeapons = new();
 
@@ -75,5 +75,65 @@ public class WeaponManager : MonoBehaviour
     public List<WeaponData> GetOwnedWeapons()
     {
         return ownedWeapons;
+    }
+
+    private WeaponData GetWeaponById(string weaponId)
+    {
+        foreach (var weapon in allWeapons)
+        {
+            if (weapon != null && weapon.weaponId == weaponId)
+                return weapon;
+        }
+
+        return null;
+    }
+
+    public void LoadData(GameData data)
+    {
+        if (data == null)
+            return;
+
+        ownedWeapons.Clear();
+        equippedWeapon = null;
+
+        foreach (string weaponId in data.ownedWeaponIds)
+        {
+            WeaponData weapon = GetWeaponById(weaponId);
+
+            if (weapon != null)
+            {
+                AddWeapon(weapon);
+            }
+        }
+
+        if (!string.IsNullOrEmpty(data.equippedWeaponId))
+        {
+            WeaponData weapon = GetWeaponById(data.equippedWeaponId);
+
+            if (weapon != null)
+            {
+                EquipWeapon(weapon);
+            }
+        }
+
+        if (equippedWeapon == null && ownedWeapons.Count > 0)
+        {
+            equippedWeapon = ownedWeapons[0];
+        }
+    }
+
+    public void SaveData(GameData data)
+    {
+        data.ownedWeaponIds.Clear();
+
+        foreach (WeaponData weapon in ownedWeapons)
+        {
+            if (weapon != null)
+            {
+                data.ownedWeaponIds.Add(weapon.weaponId);
+            }
+        }
+
+        data.equippedWeaponId = equippedWeapon != null ? equippedWeapon.weaponId : "";
     }
 }

@@ -255,7 +255,7 @@ MonoBehaviour:
   defaulStatSetup: {fileID: 11400000, guid: 84c534235c06947e39f67bd2ffc7fe1a, type: 2}
   resources:
     maxHealth:
-      baseValue: 100
+      baseValue: 3
       modifiers: []
     healthRegen:
       baseValue: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
       baseValue: 1
       modifiers: []
     damage:
-      baseValue: 10
+      baseValue: 1
       modifiers: []
     critPower:
       baseValue: 150

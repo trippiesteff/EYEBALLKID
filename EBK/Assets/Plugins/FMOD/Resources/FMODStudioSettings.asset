@@ -379,9 +379,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: FMODUnity::FMODUnity.Settings
   switchSettingsMigration: 1
   HasSourceProject: 0
-  HasPlatforms: 0
-  sourceProjectPath: 
-  sourceBankPath: FMOD/Desktop
+  HasPlatforms: 1
+  sourceProjectPath: ../FMOD/FMOD_EBK/FMOD/FMOD_EBK.fspro
+  sourceBankPath: FMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -391,7 +391,7 @@ MonoBehaviour:
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: 
+  TargetBankFolder: Desktop
   EventLinkage: 0
   LoggingLevel: 2
   SpeakerModeSettings: []
@@ -406,6 +406,9 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambience
+  - Music
+  - SFX
+  - UI
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

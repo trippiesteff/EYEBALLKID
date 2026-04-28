@@ -43,20 +43,27 @@
     <UnityVersion>6000.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/trippiesteff/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.2.1/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/trippiesteff/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.2.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/GameManager/SoftRespawnPoint.cs" />
     <Compile Include="Assets/Scripts/UI/UI_TreeConnection.cs" />
+    <Compile Include="Assets/Scripts/UI/ScreenFader.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_CounterAttackState.cs" />
     <Compile Include="Assets/Scripts/Tools/ToolItemData.cs" />
+    <Compile Include="Assets/Scripts/GameManager/GameSceneManager.cs" />
     <Compile Include="Assets/Scripts/StatSystem/Stat_OffenseGroup.cs" />
     <Compile Include="Assets/Scripts/UI/UI_TreeNode.cs" />
+    <Compile Include="Assets/Scripts/SaveSystem/FileDataHandler.cs" />
     <Compile Include="Assets/Scripts/SkillSystem/Skill_DataSO.cs" />
     <Compile Include="Assets/Scripts/Entity/Entity_Health.cs" />
+    <Compile Include="Assets/Scripts/GameManager/DamageZone.cs" />
+    <Compile Include="Assets/Scripts/GameManager/SoftPitZone.cs" />
     <Compile Include="Assets/Scripts/Parallax/Parallax.cs" />
+    <Compile Include="Assets/Scripts/SaveSystem/IDataPersistance.cs" />
     <Compile Include="Assets/Scripts/SpecialItems/SpecialItemManager.cs" />
     <Compile Include="Assets/Scripts/UI/UI_SkillTree.cs" />
     <Compile Include="Assets/Scripts/InteractiveObjects/Object_Chest.cs" />
@@ -64,6 +71,7 @@
     <Compile Include="Assets/Scripts/StatSystem/Stat.cs" />
     <Compile Include="Assets/Scripts/Parallax/2dParallax-main/ParallaxManager.cs" />
     <Compile Include="Assets/Scripts/Entity/Entity_StatusHandler.cs" />
+    <Compile Include="Assets/Scripts/Audio/MusicController.cs" />
     <Compile Include="Assets/Scripts/Tools/ToolSlotManager.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyStates/Enemy_IdleState.cs" />
     <Compile Include="Assets/Scripts/SpecialItems/SpecialItemData.cs" />
@@ -74,6 +82,7 @@
     <Compile Include="Assets/Scripts/UI/UI_TreeConnectHandler.cs" />
     <Compile Include="Assets/Scripts/Enemy/Enemy_VFX.cs" />
     <Compile Include="Assets/Scripts/UI/UI_ToolTip.cs" />
+    <Compile Include="Assets/Scripts/Audio/PlayerData.cs" />
     <Compile Include="Assets/Scripts/StatSystem/Stat_ResourceGroup.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_MoveState.cs" />
     <Compile Include="Assets/Scripts/Abilities/AbilityManager.cs" />
@@ -81,6 +90,7 @@
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_WallJumpState.cs" />
     <Compile Include="Assets/Scripts/Entity/Entity_VFX.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyStates/Enemy_BattleState.cs" />
+    <Compile Include="Assets/Scripts/SaveSystem/DataPersistanceManager.cs" />
     <Compile Include="Assets/Scripts/UI/UI_SkillToolTip.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyStates/Enemy_AttackState.cs" />
     <Compile Include="Assets/Scripts/StateMachine/StateMachine.cs" />
@@ -90,8 +100,11 @@
     <Compile Include="Assets/Scripts/Abilities/AbilityData.cs" />
     <Compile Include="Assets/Scripts/UI/UI_MiniHealthBar.cs" />
     <Compile Include="Assets/Scripts/StateMachine/PlayerState.cs" />
+    <Compile Include="Assets/Scripts/UI/MainMenuController.cs" />
+    <Compile Include="Assets/Scripts/GameManager/GameManager.cs" />
     <Compile Include="Assets/Scripts/PlayerLoadoutBridge.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_AiredState.cs" />
+    <Compile Include="Assets/Scripts/SaveSystem/GameData.cs" />
     <Compile Include="Assets/Scripts/StatSystem/Stat_MajorGroup.cs" />
     <Compile Include="Assets/Scripts/Parallax/ParallaxLayer.cs" />
     <Compile Include="Assets/Scripts/Entity/Entity_AnimationTriggers.cs" />
@@ -106,16 +119,22 @@
     <Compile Include="Assets/Scripts/Enum/StatType.cs" />
     <Compile Include="Assets/Scripts/Enemy/Enemy_Health.cs" />
     <Compile Include="Assets/Scripts/VFX/VFX_AutoController.cs" />
+    <Compile Include="Assets/Scripts/Audio/FMODEvents.cs" />
     <Compile Include="Assets/Scripts/StateMachine/EntityState.cs" />
+    <Compile Include="Assets/Scripts/Audio/AudioManager.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_IdleState.cs" />
     <Compile Include="Assets/Scripts/Interface/ICounterable.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_DeadState.cs" />
+    <Compile Include="Assets/Scripts/GameManager/PauseInputHandler.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyStates/Enemy_MoveState.cs" />
+    <Compile Include="Assets/Scripts/GameManager/SceneTransitionTrigger.cs" />
     <Compile Include="Assets/InputSystem/PlayerInputSet.cs" />
+    <Compile Include="Assets/Scripts/GameManager/GameOverPanel.cs" />
     <Compile Include="Assets/Scripts/StatSystem/Stat_SetupSO.cs" />
     <Compile Include="Assets/Scripts/InteractiveObjects/Object_Buff.cs" />
     <Compile Include="Assets/Scripts/Entity/Entity.cs" />
     <Compile Include="Assets/Scripts/Player/Player.cs" />
+    <Compile Include="Assets/Scripts/Audio/Checkpoint.cs" />
     <Compile Include="Assets/Scripts/Parallax/2dParallax-main/ParallaxManagerEditor.cs" />
     <Compile Include="Assets/Scripts/UI/HeartBarUI.cs" />
     <Compile Include="Assets/Scripts/Weapons/WeaponManager.cs" />
@@ -125,6 +144,8 @@
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_WallSlideState.cs" />
     <Compile Include="Assets/Scripts/UI/UI.cs" />
     <Compile Include="Assets/Scripts/Weapons/WeaponData.cs" />
+    <Compile Include="Assets/Scripts/GameManager/InstantKillZone.cs" />
+    <Compile Include="Assets/Scripts/GameManager/SceneTransitionDestination.cs" />
     <Compile Include="Assets/Scripts/Player/Player_Combat.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerStates/Player_FallState.cs" />
     <Compile Include="Assets/Scripts/Tools/ToolItemType.cs" />

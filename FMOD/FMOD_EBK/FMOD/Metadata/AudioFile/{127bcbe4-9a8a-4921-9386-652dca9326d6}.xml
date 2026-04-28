@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{127bcbe4-9a8a-4921-9386-652dca9326d6}">
+		<property name="assetPath">
+			<value>Eyeballkid_Endless Expanse.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>253.49224489795918</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcc8f0a0-ee4c-44c7-a2b4-5510f0b3974d}</destination>
+		</relationship>
+	</object>
+</objects>

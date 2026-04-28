@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5b5bbb38-022b-42a3-b2a5-cce838eba54e}">
+		<property name="assetPath">
+			<value>Eyeballkid Main Theme random arangement.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>295.39265306122451</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcc8f0a0-ee4c-44c7-a2b4-5510f0b3974d}</destination>
+		</relationship>
+	</object>
+</objects>

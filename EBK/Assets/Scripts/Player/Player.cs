@@ -119,11 +119,17 @@ public class Player : Entity
         stateMachine.Initialize(idleState);
     }
     public override void EntityDeath()
+{
+    base.EntityDeath();
+
+    stateMachine.ChangeState(deadState);
+
+    if (GameManager.Instance != null)
     {
-        base.EntityDeath();
-        OnPlayerDeath?.Invoke();
-        stateMachine.ChangeState(deadState);
+        GameManager.Instance.RespawnAtLastCheckpoint();
     }
+}
+
     public void EnterAttackStateWithDelay()
     {
         if (queuedAttackCo != null)

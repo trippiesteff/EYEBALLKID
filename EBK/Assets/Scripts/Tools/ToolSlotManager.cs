@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToolSlotManager : MonoBehaviour
+public class ToolSlotManager : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private List<ToolItemData> allTools = new();
 
@@ -75,5 +75,65 @@ public class ToolSlotManager : MonoBehaviour
     public List<ToolItemData> GetOwnedTools()
     {
         return ownedTools;
+    }
+
+    private ToolItemData GetToolById(string toolId)
+    {
+        foreach (var tool in allTools)
+        {
+            if (tool != null && tool.toolId == toolId)
+                return tool;
+        }
+
+        return null;
+    }
+
+    public void LoadData(GameData data)
+    {
+        if (data == null)
+            return;
+
+        ownedTools.Clear();
+        equippedTool = null;
+
+        foreach (string toolId in data.ownedToolIds)
+        {
+            ToolItemData tool = GetToolById(toolId);
+
+            if (tool != null)
+            {
+                AddTool(tool);
+            }
+        }
+
+        if (!string.IsNullOrEmpty(data.equippedToolId))
+        {
+            ToolItemData tool = GetToolById(data.equippedToolId);
+
+            if (tool != null)
+            {
+                EquipTool(tool);
+            }
+        }
+
+        if (equippedTool == null && ownedTools.Count > 0)
+        {
+            equippedTool = ownedTools[0];
+        }
+    }
+
+    public void SaveData(GameData data)
+    {
+        data.ownedToolIds.Clear();
+
+        foreach (ToolItemData tool in ownedTools)
+        {
+            if (tool != null)
+            {
+                data.ownedToolIds.Add(tool.toolId);
+            }
+        }
+
+        data.equippedToolId = equippedTool != null ? equippedTool.toolId : "";
     }
 }

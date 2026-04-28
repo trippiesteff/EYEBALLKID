@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -53,10 +52,10 @@ public class Entity_Health : MonoBehaviour, IDamageable
         float physicalDamageTaken = damage * (1 - mitigation);
 
         float resistance = entityStats.GetElementalResistance(element);
-        float elemenalDamageTaken = elementalDamage * (1 - resistance);
+        float elementalDamageTaken = elementalDamage * (1 - resistance);
 
         TakeKnockback(damageDealer, physicalDamageTaken);
-        ReduceHealth(physicalDamageTaken + elemenalDamageTaken);
+        ReduceHealth(physicalDamageTaken + elementalDamageTaken);
 
         return true;
     }
@@ -68,7 +67,7 @@ public class Entity_Health : MonoBehaviour, IDamageable
 
     public void RegenerateHealth()
     {
-        if (canRegenerateHealth == false)
+        if (!canRegenerateHealth || isDead)
             return;
 
         float regenAmount = entityStats.resources.healthRegen.GetValue();
@@ -80,25 +79,51 @@ public class Entity_Health : MonoBehaviour, IDamageable
         if (isDead)
             return;
 
-        float newHealth = currentHealth + healAmount;
         float maxHealth = entityStats.GetMaxHealth();
-
-        currentHealth = Mathf.Min(newHealth, maxHealth);
+        currentHealth = Mathf.Min(currentHealth + healAmount, maxHealth);
         UpdateHealthBar();
     }
 
     public void ReduceHealth(float damage)
     {
+        if (isDead)
+            return;
+
         entityVfx?.PlayOnDamageVfx();
         currentHealth -= damage;
+        currentHealth = Mathf.Max(currentHealth, 0f);
         UpdateHealthBar();
 
         if (currentHealth <= 0)
             Die();
     }
 
+    public void SetCurrentHealth(float value)
+    {
+        float maxHealth = entityStats.GetMaxHealth();
+        currentHealth = Mathf.Clamp(value, 0f, maxHealth);
+        isDead = currentHealth <= 0f;
+        UpdateHealthBar();
+    }
+
+    public void SetMaxHealth(float value, bool refillToFull = true)
+    {
+        entityStats.SetMaxHealth(value);
+
+        if (refillToFull)
+            currentHealth = entityStats.GetMaxHealth();
+        else
+            currentHealth = Mathf.Clamp(currentHealth, 0f, entityStats.GetMaxHealth());
+
+        isDead = currentHealth <= 0f;
+        UpdateHealthBar();
+    }
+
     private void Die()
     {
+        if (isDead)
+            return;
+
         isDead = true;
         entity.EntityDeath();
     }
@@ -108,7 +133,11 @@ public class Entity_Health : MonoBehaviour, IDamageable
         if (healthBar == null)
             return;
 
-        healthBar.value = currentHealth / entityStats.GetMaxHealth();
+        float maxHealth = entityStats.GetMaxHealth();
+
+        healthBar.minValue = 0f;
+        healthBar.maxValue = maxHealth;
+        healthBar.value = currentHealth;
     }
 
     private void TakeKnockback(Transform damageDealer, float finalDamage)
@@ -124,14 +153,24 @@ public class Entity_Health : MonoBehaviour, IDamageable
         int direction = transform.position.x > damageDealer.position.x ? 1 : -1;
 
         Vector2 knockback = IsHeavyDamage(damage) ? heavyKnockbackPower : knockbackPower;
-        knockback.x = knockback.x * direction;
+        knockback.x *= direction;
 
         return knockback;
     }
 
-    private float CalculateDuration(float damage) => IsHeavyDamage(damage) ? heavyKnockbackDuration : knockbackDuration;
+    private float CalculateDuration(float damage)
+    {
+        return IsHeavyDamage(damage) ? heavyKnockbackDuration : knockbackDuration;
+    }
 
-    private bool IsHeavyDamage(float damage) => damage / entityStats.GetMaxHealth() > heavyDamageTreshold;
+    private bool IsHeavyDamage(float damage)
+    {
+        float maxHealth = entityStats.GetMaxHealth();
+        if (maxHealth <= 0f)
+            return false;
+
+        return damage / maxHealth > heavyDamageTreshold;
+    }
 
     public float GetCurrentHealth()
     {

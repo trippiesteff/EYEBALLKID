@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpecialItemManager : MonoBehaviour
+public class SpecialItemManager : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private List<SpecialItemData> allSpecialItems = new();
     [SerializeField] private List<SpecialItemStack> ownedSpecialItems = new();
@@ -107,5 +107,50 @@ public class SpecialItemManager : MonoBehaviour
     private SpecialItemStack FindStack(SpecialItemData item)
     {
         return ownedSpecialItems.Find(x => x.itemData == item);
+    }
+
+    private SpecialItemData GetItemById(string itemId)
+    {
+        foreach (var item in allSpecialItems)
+        {
+            if (item != null && item.itemId == itemId)
+                return item;
+        }
+
+        return null;
+    }
+
+    public void LoadData(GameData data)
+    {
+        if (data == null)
+            return;
+
+        ownedSpecialItems.Clear();
+
+        foreach (SpecialItemSaveData savedItem in data.specialItems)
+        {
+            if (savedItem == null || string.IsNullOrEmpty(savedItem.itemId))
+                continue;
+
+            SpecialItemData itemData = GetItemById(savedItem.itemId);
+
+            if (itemData != null)
+            {
+                AddItem(itemData, savedItem.amount);
+            }
+        }
+    }
+
+    public void SaveData(GameData data)
+    {
+        data.specialItems.Clear();
+
+        foreach (SpecialItemStack stack in ownedSpecialItems)
+        {
+            if (stack != null && stack.itemData != null && stack.amount > 0)
+            {
+                data.specialItems.Add(new SpecialItemSaveData(stack.itemData.itemId, stack.amount));
+            }
+        }
     }
 }

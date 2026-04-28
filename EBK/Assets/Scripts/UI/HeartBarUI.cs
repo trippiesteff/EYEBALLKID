@@ -1,46 +1,116 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HeartBarUI : MonoBehaviour
 {
     [Header("References")]
-    public Entity_Health playerHealth;
-    public GameObject heartTemplate;
-    public string heartImageChildName = "HeartImage";
+    [SerializeField] private Entity_Health playerHealth;
+    [SerializeField] private GameObject heartTemplate;
+    [SerializeField] private string heartImageChildName = "HeartImage";
 
     [Header("Sprites")]
-    public Sprite fullHeartSprite;
-    public Sprite emptyHeartSprite;
+    [SerializeField] private Sprite fullHeartSprite;
+    [SerializeField] private Sprite emptyHeartSprite;
 
     [Header("Low Health Warning")]
-    public int lowHealthThreshold = 2;
-    public Color normalColor = Color.white;
-    public Color lowHealthBlinkColor = new Color(1f, 0.45f, 0.45f, 1f);
-    public float blinkSpeed = 4f;
+    [SerializeField] private int lowHealthThreshold = 2;
+    [SerializeField] private Color normalColor = Color.white;
+    [SerializeField] private Color lowHealthBlinkColor = new Color(1f, 0.45f, 0.45f, 1f);
+    [SerializeField] private float blinkSpeed = 4f;
 
     [Header("Idle Wiggle")]
-    public float wiggleAmountX = 0.25f;
-    public float wiggleAmountY = 0.75f;
-    public float wiggleSpeed = 2f;
+    [SerializeField] private float wiggleAmountX = 0.25f;
+    [SerializeField] private float wiggleAmountY = 0.75f;
+    [SerializeField] private float wiggleSpeed = 2f;
 
-    private List<GameObject> heartSlots = new List<GameObject>();
-    private List<Image> heartImages = new List<Image>();
-    private List<RectTransform> heartImageRects = new List<RectTransform>();
-    private List<Vector2> basePositions = new List<Vector2>();
+    private readonly List<GameObject> heartSlots = new();
+    private readonly List<Image> heartImages = new();
+    private readonly List<RectTransform> heartImageRects = new();
+    private readonly List<Vector2> basePositions = new();
+
+    private int lastMaxHealth = -1;
+    private int lastCurrentHealth = -1;
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
     private void Start()
     {
         if (heartTemplate != null)
             heartTemplate.SetActive(false);
 
-        RedrawHearts();
+        RefreshPlayerReference();
+        ForceRebuild();
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RefreshPlayerReference();
+        ForceRebuild();
     }
 
     private void Update()
     {
-        RedrawHearts();
+        if (playerHealth == null)
+        {
+            RefreshPlayerReference();
+            return;
+        }
+
+        int maxHealth = Mathf.RoundToInt(playerHealth.GetMaxHealth());
+        int currentHealth = Mathf.RoundToInt(playerHealth.GetCurrentHealth());
+
+        if (maxHealth != lastMaxHealth || currentHealth != lastCurrentHealth)
+        {
+            RedrawHearts();
+            lastMaxHealth = maxHealth;
+            lastCurrentHealth = currentHealth;
+        }
+
         AnimateHearts();
+    }
+
+    private void RefreshPlayerReference()
+    {
+        Player player = FindFirstObjectByType<Player>();
+
+        if (player != null)
+            playerHealth = player.GetComponent<Entity_Health>();
+    }
+
+    public void ForceRebuild()
+    {
+        ClearHearts();
+
+        if (playerHealth == null)
+            return;
+
+        RedrawHearts();
+        lastMaxHealth = Mathf.RoundToInt(playerHealth.GetMaxHealth());
+        lastCurrentHealth = Mathf.RoundToInt(playerHealth.GetCurrentHealth());
+    }
+
+    private void ClearHearts()
+    {
+        foreach (GameObject slot in heartSlots)
+        {
+            if (slot != null)
+                Destroy(slot);
+        }
+
+        heartSlots.Clear();
+        heartImages.Clear();
+        heartImageRects.Clear();
+        basePositions.Clear();
     }
 
     private void RedrawHearts()
@@ -72,31 +142,21 @@ public class HeartBarUI : MonoBehaviour
             basePositions.Add(rect.anchoredPosition);
         }
 
+        for (int i = 0; i < heartSlots.Count; i++)
+        {
+            heartSlots[i].SetActive(i < maxHealth);
+        }
+
         bool lowHealth = currentHealth <= lowHealthThreshold;
         Color blinkColor = lowHealth
             ? Color.Lerp(normalColor, lowHealthBlinkColor, Mathf.PingPong(Time.time * blinkSpeed, 1f))
             : normalColor;
 
-        for (int i = 0; i < heartSlots.Count; i++)
+        for (int i = 0; i < maxHealth; i++)
         {
-            if (i < maxHealth)
-            {
-                heartSlots[i].SetActive(true);
-
-                if (i < currentHealth)
-                    heartImages[i].sprite = fullHeartSprite;
-                else
-                    heartImages[i].sprite = emptyHeartSprite;
-
-                if (lowHealth && i < currentHealth)
-                    heartImages[i].color = blinkColor;
-                else
-                    heartImages[i].color = normalColor;
-            }
-            else
-            {
-                heartSlots[i].SetActive(false);
-            }
+            heartImages[i].sprite = i < currentHealth ? fullHeartSprite : emptyHeartSprite;
+            heartImages[i].color = (lowHealth && i < currentHealth) ? blinkColor : normalColor;
+            heartImageRects[i].anchoredPosition = basePositions[i];
         }
     }
 

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityManager : MonoBehaviour
+public class AbilityManager : MonoBehaviour, IDataPersistence
 {
     [Header("All known abilities")]
     [SerializeField] private List<AbilityData> allAbilities = new();
@@ -56,5 +56,37 @@ public class AbilityManager : MonoBehaviour
     public List<AbilityData> GetAllAbilities()
     {
         return allAbilities;
+    }
+
+    public void LoadData(GameData data)
+    {
+        if (data == null)
+            return;
+
+        unlockedAbilities.Clear();
+
+        foreach (string abilityId in data.unlockedAbilityIds)
+        {
+            if (System.Enum.TryParse(abilityId, out AbilityType abilityType))
+            {
+                if (abilityType != AbilityType.None)
+                {
+                    unlockedAbilities.Add(abilityType);
+                }
+            }
+        }
+    }
+
+    public void SaveData(GameData data)
+    {
+        data.unlockedAbilityIds.Clear();
+
+        foreach (AbilityType abilityType in unlockedAbilities)
+        {
+            if (abilityType != AbilityType.None)
+            {
+                data.unlockedAbilityIds.Add(abilityType.ToString());
+            }
+        }
     }
 }
