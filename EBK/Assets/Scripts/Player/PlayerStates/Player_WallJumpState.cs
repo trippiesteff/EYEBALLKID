@@ -9,6 +9,8 @@ public class Player_WallJumpState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        player.ConsumeJump();
+        rb.gravityScale = player.defaultGravityScale;
         player.SetVelocity(player.wallJumpForce.x * -player.facingDir, player.wallJumpForce.y);
     }
 
@@ -16,11 +18,12 @@ public class Player_WallJumpState : PlayerState
     {
         base.Update();
 
+        player.HandleBetterJump();
+
         if (rb.linearVelocityY < 0)
             stateMachine.ChangeState(player.fallState);
 
-        if(player.wallDetected)
-        stateMachine.ChangeState(player.wallSlideState);
-
+        if (player.wallDetected)
+            stateMachine.ChangeState(player.wallSlideState);
     }
 }

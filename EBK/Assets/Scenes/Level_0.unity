@@ -1977,12 +1977,25 @@ MonoBehaviour:
   attackVelocityDuration: 0.1
   comboResetTime: 1
   moveSpeed: 8
-  jumpForce: 15
   wallJumpForce: {x: 10, y: 15}
   inAirMoveMultiplier: 0.9
   wallSlideSlowMultiplier: 0.7
   dashDuration: 0.28
   dashSpeed: 23
+  jumpHeight: 4.2
+  jumpApexTime: 0.32
+  coyoteTime: 0.18
+  jumpBufferTime: 0.15
+  jumpCutMultiplier: 0.5
+  fallSpeedLimit: -20
+  jumpHangTimeThreshold: 1.5
+  apexMoveMultiplier: 1.15
+  apexGravityMultiplier: 0.75
+  riseGravityMultiplier: 1
+  fallGravityMultiplier: 2
+  airAcceleration: 65
+  airDeceleration: 55
+  edgeNudgeForce: 1.5
 --- !u!4 &956720440
 Transform:
   m_ObjectHideFlags: 0
