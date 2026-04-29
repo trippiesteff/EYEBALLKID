@@ -29,6 +29,24 @@ public class AbilityManager : MonoBehaviour, IDataPersistence
         return unlockedAbilities.Contains(abilityType);
     }
 
+    public AbilityData GetAbilityData(AbilityType abilityType)
+    {
+        foreach (var ability in allAbilities)
+        {
+            if (ability != null && ability.abilityType == abilityType)
+                return ability;
+        }
+        return null;
+    }
+
+    public int GetDashCharges()
+    {
+        AbilityData dashData = GetAbilityData(AbilityType.Dash);
+        if (dashData != null)
+            return dashData.dashCharges;
+        return 1;
+    }
+
     public void UnlockAbility(AbilityType abilityType)
     {
         if (abilityType == AbilityType.None)
@@ -53,6 +71,21 @@ public class AbilityManager : MonoBehaviour, IDataPersistence
         UnlockAbility(abilityData.abilityType);
     }
 
+    public void SwapAbility(AbilityData oldAbility, AbilityData newAbility)
+    {
+        if (oldAbility != null)
+        {
+            allAbilities.Remove(oldAbility);
+            unlockedAbilities.Remove(oldAbility.abilityType);
+        }
+
+        if (newAbility != null)
+        {
+            allAbilities.Add(newAbility);
+            unlockedAbilities.Add(newAbility.abilityType);
+        }
+    }
+
     public List<AbilityData> GetAllAbilities()
     {
         return allAbilities;
@@ -61,6 +94,9 @@ public class AbilityManager : MonoBehaviour, IDataPersistence
     public void LoadData(GameData data)
     {
         if (data == null)
+            return;
+
+        if (data.unlockedAbilityIds == null || data.unlockedAbilityIds.Count == 0)
             return;
 
         unlockedAbilities.Clear();

@@ -19,6 +19,13 @@ MonoBehaviour:
       Data3: -829893204
       Data4: 557360740
     Path: event:/SFX/Player/Jump
+  playerDash:
+    Guid:
+      Data1: -737506474
+      Data2: 1193337435
+      Data3: 338985357
+      Data4: -1004670702
+    Path: event:/SFX/Player/Dash
   uiClick:
     Guid:
       Data1: 574052156

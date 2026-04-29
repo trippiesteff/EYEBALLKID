@@ -66,4 +66,14 @@ public class PlayerLoadoutBridge : MonoBehaviour
     public WeaponManager GetWeaponManager() => weaponManager;
     public ToolSlotManager GetToolSlotManager() => toolSlotManager;
     public SpecialItemManager GetSpecialItemManager() => specialItemManager;
+
+
+
+public int GetDashCharges()
+{
+    if (abilityManager == null)
+        return 1;
+
+    return abilityManager.GetDashCharges();
+}
 }

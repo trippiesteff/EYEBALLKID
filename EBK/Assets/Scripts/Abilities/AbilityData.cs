@@ -8,4 +8,5 @@ public class AbilityData : ScriptableObject
     [TextArea] public string description;
     public Sprite icon;
     public bool unlockedByDefault;
+    public int dashCharges = 1;
 }

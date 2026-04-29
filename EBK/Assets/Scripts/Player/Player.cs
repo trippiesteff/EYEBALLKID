@@ -37,9 +37,14 @@ public class Player : Entity
     public float inAirMoveMultiplier = .7f;
     [Range(0, 1)]
     public float wallSlideSlowMultiplier = .7f;
-    [Space]
-    public float dashDuration = .25f;
-    public float dashSpeed = 20f;
+
+    [Header("Movement Acceleration")]
+    public float groundAcceleration = 80f;
+    public float groundDeceleration = 70f;
+    public float directionChangeMultiplier = 1.2f;
+    [Range(0, 1)]
+    public float groundDrag = 0.95f;
+    public float accelerationCurve = 1f;
 
     [Header("Jump details")]
     public float jumpHeight = 4.2f;
@@ -49,6 +54,22 @@ public class Player : Entity
     [Range(.1f, 1f)]
     public float jumpCutMultiplier = .5f;
     public float fallSpeedLimit = -20f;
+
+   [Header("Dash details")]
+    public float dashDuration = .25f;
+    public float dashSpeed = 20f;
+    public float dashStartSpeed = 0f;
+    public float dashEndSpeed = 0f;
+    public float dashAcceleration = 120f;
+    public float dashDeceleration = 120f;
+    public float dashDiagonalSpeedMultiplier = 1.15f;
+    public float dashDecelerationThreshold = .08f;
+
+    [Header("Dash juice")]
+    public float dashFreezeFrameDuration = 0.04f;
+    public float dashShakeDuration = 0.1f;
+    public float dashShakeIntensity = 0.15f;
+    public GameObject dashVfxPrefab;
 
     [Header("Air tuning")]
     public float jumpHangTimeThreshold = 1.5f;
@@ -72,6 +93,9 @@ public class Player : Entity
 
     public bool jumpInputReleased { get; private set; }
     public bool isJumping { get; private set; }
+
+    private float currentGroundVelocityX;
+    private int dashChargesRemaining;
 
     protected override void Awake()
     {
@@ -224,6 +248,80 @@ public class Player : Entity
         rb.linearVelocity = new Vector2(rb.linearVelocityX + (moveInput.x * edgeNudgeForce), rb.linearVelocityY);
     }
 
+    public void HandleGroundMovement(float inputX)
+    {
+        if (Mathf.Abs(inputX) > 0.01f)
+        {
+            HandleAcceleration(inputX);
+        }
+        else
+        {
+            HandleDeceleration();
+        }
+
+        rb.linearVelocity = new Vector2(currentGroundVelocityX, rb.linearVelocityY);
+        HandleFlip(currentGroundVelocityX);
+    }
+
+    private void HandleAcceleration(float inputX)
+    {
+        float targetSpeed = inputX * moveSpeed;
+        float speedDifference = targetSpeed - currentGroundVelocityX;
+
+        bool isChangingDirection = Mathf.Sign(inputX) != Mathf.Sign(currentGroundVelocityX) && currentGroundVelocityX != 0;
+        float accel = isChangingDirection ? groundAcceleration * directionChangeMultiplier : groundAcceleration;
+
+        float acceleration = speedDifference > 0
+            ? accel * Mathf.Pow(Mathf.Abs(speedDifference / targetSpeed), 2 - accelerationCurve)
+            : accel;
+
+        float velocityChange = acceleration * Time.deltaTime;
+        currentGroundVelocityX = Mathf.MoveTowards(currentGroundVelocityX, targetSpeed, velocityChange);
+    }
+
+    private void HandleDeceleration()
+    {
+        currentGroundVelocityX *= groundDrag;
+
+        if (Mathf.Abs(currentGroundVelocityX) > 0.01f)
+        {
+            float brakingForce = groundDeceleration * Time.deltaTime;
+            currentGroundVelocityX = Mathf.MoveTowards(currentGroundVelocityX, 0, brakingForce);
+        }
+        else
+        {
+            currentGroundVelocityX = 0;
+        }
+    }
+
+    public void ResetGroundVelocity()
+    {
+        currentGroundVelocityX = 0;
+    }
+
+  public int GetMaxDashCharges()
+{
+    if (loadoutBridge == null)
+        return 1;
+
+    return loadoutBridge.GetDashCharges();
+}
+
+    public bool CanConsumeDashCharge()
+    {
+        return dashChargesRemaining > 0;
+    }
+
+    public void ConsumeDashCharge()
+    {
+        dashChargesRemaining--;
+    }
+
+    public void RefillDashCharges()
+    {
+        dashChargesRemaining = GetMaxDashCharges();
+    }
+
     public void EnterAttackStateWithDelay()
     {
         if (queuedAttackCo != null)
@@ -253,6 +351,8 @@ public class Player : Entity
         float originalAirAcceleration = airAcceleration;
         float originalAirDeceleration = airDeceleration;
         float originalEdgeNudgeForce = edgeNudgeForce;
+        float originalGroundAcceleration = groundAcceleration;
+        float originalGroundDeceleration = groundDeceleration;
 
         float speedMultiplier = 1 - slowMultiplier;
 
@@ -266,6 +366,8 @@ public class Player : Entity
         airAcceleration *= speedMultiplier;
         airDeceleration *= speedMultiplier;
         edgeNudgeForce *= speedMultiplier;
+        groundAcceleration *= speedMultiplier;
+        groundDeceleration *= speedMultiplier;
 
         for (int i = 0; i < attackVelocity.Length; i++)
         {
@@ -286,6 +388,8 @@ public class Player : Entity
         airAcceleration = originalAirAcceleration;
         airDeceleration = originalAirDeceleration;
         edgeNudgeForce = originalEdgeNudgeForce;
+        groundAcceleration = originalGroundAcceleration;
+        groundDeceleration = originalGroundDeceleration;
 
         for (int i = 0; i < attackVelocity.Length; i++)
         {
@@ -293,6 +397,11 @@ public class Player : Entity
         }
 
         RecalculateJumpValues();
+    }
+
+    public float GetGravity()
+    {
+        return -(2 * jumpHeight) / Mathf.Pow(jumpApexTime, 2);
     }
 
     private void OnEnable()
@@ -324,6 +433,15 @@ public class Player : Entity
 
         if (airDeceleration < 0)
             airDeceleration = 0;
+
+        if (groundAcceleration < 0)
+            groundAcceleration = 0;
+
+        if (groundDeceleration < 0)
+            groundDeceleration = 0;
+
+        if (accelerationCurve < 0.1f)
+            accelerationCurve = 0.1f;
 
         if (Application.isPlaying == false)
             return;

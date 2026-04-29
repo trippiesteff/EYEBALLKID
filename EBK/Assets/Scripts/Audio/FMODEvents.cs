@@ -6,6 +6,7 @@ public class FMODEvents : ScriptableObject
 {
     [Header("Player")]
     public EventReference playerJump;
+    public EventReference playerDash;
 
     [Header("UI")]
     public EventReference uiClick;

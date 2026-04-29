@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{98592c69-5065-4a5b-9a50-5e71a5f318d8}">
+		<property name="assetPath">
+			<value>Woosh_3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.39904761904761904</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcc8f0a0-ee4c-44c7-a2b4-5510f0b3974d}</destination>
+		</relationship>
+	</object>
+</objects>

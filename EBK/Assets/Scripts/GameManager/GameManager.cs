@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Unity.Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private bool isTransitioning = false;
 
     private Coroutine respawnRoutine;
+    private CinemachineImpulseSource impulseSource;
 
     public bool IsPaused => isPaused;
     public bool IsRespawning => isRespawning;
@@ -33,6 +35,8 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
     private void OnEnable()
@@ -52,6 +56,26 @@ public class GameManager : MonoBehaviour
         isRespawning = false;
         isTransitioning = false;
         respawnRoutine = null;
+    }
+
+    public void FreezeFrame(float duration)
+    {
+        StartCoroutine(FreezeFrameCo(duration));
+    }
+
+    private IEnumerator FreezeFrameCo(float duration)
+    {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(duration);
+
+        if (!isPaused)
+            Time.timeScale = 1f;
+    }
+
+    public void ScreenShake(float duration, float intensity)
+    {
+        if (impulseSource != null)
+            impulseSource.GenerateImpulse(intensity);
     }
 
     public void PauseGame()

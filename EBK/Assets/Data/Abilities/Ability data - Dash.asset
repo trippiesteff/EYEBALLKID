@@ -17,3 +17,4 @@ MonoBehaviour:
   description: Lets you dash through the air
   icon: {fileID: -3785442492447779331, guid: 70c3f9b4406a64f9eba263be6685d767, type: 3}
   unlockedByDefault: 1
+  dashCharges: 1

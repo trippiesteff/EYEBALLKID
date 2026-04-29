@@ -22,5 +22,6 @@ public class Player_IdleState : Player_GroundedState
         if (player.moveInput.x != 0)
             stateMachine.ChangeState(player.moveState);
         
+        player.HandleGroundMovement(player.moveInput.x);
     }
 }

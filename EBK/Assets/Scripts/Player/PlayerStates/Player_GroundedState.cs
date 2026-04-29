@@ -10,6 +10,8 @@ public class Player_GroundedState : PlayerState
     {
         base.Enter();
         player.ResetJumpState();
+        player.ResetGroundVelocity();
+        player.RefillDashCharges();
         rb.gravityScale = player.defaultGravityScale;
     }
 

@@ -6,6 +6,12 @@ public class Player_WallSlideState : PlayerState
     {
     }
 
+    public override void Enter()
+    {
+        base.Enter();
+        player.RefillDashCharges();
+    }
+
     public override void Update()
     {
         base.Update();
@@ -14,7 +20,6 @@ public class Player_WallSlideState : PlayerState
         if (input.Player.Jump.WasPressedThisFrame())
             stateMachine.ChangeState(player.wallJumpState);
 
-
         if (player.wallDetected == false)
             stateMachine.ChangeState(player.fallState);
 
@@ -22,8 +27,8 @@ public class Player_WallSlideState : PlayerState
         {
             stateMachine.ChangeState(player.idleState);
 
-            if(player.facingDir != player.moveInput.x)
-            player.Flip();
+            if (player.facingDir != player.moveInput.x)
+                player.Flip();
         }
     }
 
@@ -33,6 +38,5 @@ public class Player_WallSlideState : PlayerState
             player.SetVelocity(player.moveInput.x, rb.linearVelocity.y);
         else
             player.SetVelocity(player.moveInput.x, rb.linearVelocity.y * player.wallSlideSlowMultiplier);
-        
     }
 }

@@ -63,6 +63,11 @@ public class AudioManager : MonoBehaviour, IDataPersistence
         RuntimeManager.PlayOneShot(fmodEvents.playerJump, position);
     }
 
+    public void PlayPlayerDash(Vector3 position)
+    {
+        RuntimeManager.PlayOneShot(fmodEvents.playerDash, position);
+    }
+
     public void PlayUIClick(Vector3 position)
     {
         RuntimeManager.PlayOneShot(fmodEvents.uiClick, position);
